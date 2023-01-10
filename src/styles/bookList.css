@@ -1,0 +1,38 @@
+.book_card{
+   
+    /* display: inline-block ; */
+    border: 1px solid black;
+    border-radius:10px ;
+    margin: 20px 280px;
+    /* padding: 10px; */
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+    justify-content:space-around;
+    /* height: 250px;
+    width:200px; */
+    /* background-color: cadetblue; */
+    
+}
+
+.book_card button{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid red;
+
+}
+.booklist2{
+    display: flex;
+    align-items: center;
+    /* margin: 20px;   */
+    margin-right: 20px;
+}
+.booklist h1{
+    text-align: center;
+}
+
+.bookinfo{
+    margin-left: 30px;
+}
+.bookimg{
+    margin-left: 40px;
+}

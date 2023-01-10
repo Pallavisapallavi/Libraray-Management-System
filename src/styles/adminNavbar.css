@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(140, 153, 176); */
+    background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.531)), url("http://rovan.in/wp-content/uploads/2015/01/library-management-system.jpg");
+}
+.links li{
+    display: inline;
+    margin-left: 20px;
+    align-items: center;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
+.links a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 500;
+}
+.logout button{
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid whitesmoke;
+    color: antiquewhite;
+    font-weight: 500;
+}
+.adminportal h1{
+    color: antiquewhite;
+    font-weight: 500;
+}
