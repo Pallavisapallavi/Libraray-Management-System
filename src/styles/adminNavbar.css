@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     /* background-color: rgb(140, 153, 176); */
+ color: antiquewhite;
     background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.531)), url("http://rovan.in/wp-content/uploads/2015/01/library-management-system.jpg");
 }
 .links li{

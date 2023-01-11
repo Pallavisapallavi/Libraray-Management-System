@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../styles/addBooks.css'
 
 const AddBook = () => {
 
@@ -27,10 +28,13 @@ const AddBook = () => {
 
     return (
         <div className="addbook">
-            <h1>ADD BOOKS</h1>
+            <h1 style={{marginLeft:"120px"}}>ADD BOOKS📚</h1>
             <div className="form">
+            <div className="formstyle">
                 <form action="" onSubmit={submit}>
+                    
                     <div className="title">
+                     
                         <input type="text" required placeholder="enter book title" value={title} onChange={(e)=>setTitle(e.target.value)} />
                     </div>
                     <div className="authors">
@@ -45,17 +49,19 @@ const AddBook = () => {
                         <input type="number" required placeholder="enter book pageCount" value={pageCount} onChange={(e)=>setpageCount(e.target.value)} />
                     </div>
                     <div className="shortDescription">
-                        <textarea name="" id="" cols="30" rows="10" required placeholder="enter book shortDescription"  value={shortDescription} onChange={(e)=>setshortDescription(e.target.value)}></textarea>
+                        <textarea name="" id="" cols="20" rows="5" required placeholder="enter book shortDescription"  value={shortDescription} onChange={(e)=>setshortDescription(e.target.value)}></textarea>
                     </div>
                     <div className="longDescription">
-                        <textarea name="" id="" cols="30" rows="10" required placeholder="enter book longDescription"  value={longDescription} onChange={(e)=>setlongDescription(e.target.value)}></textarea>
+                        <textarea name="" id="" cols="20" rows="5" required placeholder="enter book longDescription"  value={longDescription} onChange={(e)=>setlongDescription(e.target.value)}></textarea>
                     </div>
                     <div className="thumbnailUrl">
                         <input type="text" required placeholder="book image" value={thumbnailUrl} onChange={(e)=>setthumbnailUrl(e.target.value)} />
                     </div>
                     <button>ADD BOOK</button>
+                   
 
                 </form>
+                </div>
             </div>
 
         </div>

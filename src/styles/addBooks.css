@@ -1,0 +1,41 @@
+.addbook {
+    margin: 80px 480px;
+    background: linear-gradient(rgba(108, 83, 83, 0.932), rgba(239, 236, 236, 0.531)), url("http://rovan.in/wp-content/uploads/2015/01/library-management-system.jpg");
+    /* padding: 50px; */
+    /* background-color: darkgray; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    justify-content: center;
+}
+
+.addbook input,
+textarea {
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 9px;
+    font-weight: 500;
+    color: rgb(7, 7, 7);
+    background-color: whitesmoke;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgb(35, 34, 34);
+
+
+}
+/* .addbook input{
+    width: 190px;
+} */
+
+.addbook button {
+    padding: 10px;
+    margin-left: 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 20px;
+}
+
+
+.formstyle {
+    margin-left: 120px;
+}
